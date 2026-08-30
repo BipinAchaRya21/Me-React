@@ -66,7 +66,7 @@ const countryNames = {
 } 
 
 function App() {
-  const [amount, setAmount] = useState(0)
+  const [amount, setAmount] = useState("")
   const [from, setFrom] = useState('USD')
   const [to, setTo] = useState('NPR')
   const [convertedAmount, setConvertedAmount] = useState(0)
